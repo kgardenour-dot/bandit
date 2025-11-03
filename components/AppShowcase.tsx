@@ -37,7 +37,7 @@ const apps: App[] = [
   {
     name: 'Poofling',
     tagline: 'Splatter, sploosh, and save Dungtopia!',
-    description: 'Poofling is a hilarious physics game where you catapult poo at the villains of cleanliness. Join Splatticus the dung beetle and the Resistance of Reek to splatter, sploosh, and save the messy world of Dungtopia!',
+    description: 'Poofling is a laugh-out-loud physics adventure where every fling counts! Build and upgrade your rickety Plopapult to launch poo-powered projectiles at the tidy tyrants of the Sanitation Syndicate, smashing their spotless structures in glorious, messy fashion. Explore silly themed worlds, unlock new ammo types, and master your aim as chaos reigns supreme. Join Splatticus the dung beetle and the Resistance of Reek to splatter, sploosh, and save the messy world of Dungtopia!',
     color: 'bg-gradient-to-br from-poofling-yellow to-poofling-orange',
     accentColor: 'border-poofling-orange',
     logo: '/logos/poofling-logo-biweb.png',
