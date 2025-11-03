@@ -32,7 +32,7 @@ export default function About() {
               animate={isInView ? { opacity: 1 } : { opacity: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
             >
-              We're a small, independent studio building apps that matter.
+              We're a small, independent studio building apps that span the full spectrum of human experience.
             </motion.p>
 
             <motion.p
@@ -41,8 +41,9 @@ export default function About() {
               animate={isInView ? { opacity: 1 } : { opacity: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
-              Every app we create is designed with intention — whether it's helping you find peace on the trail, 
-              preserving your most cherished memories, or simply bringing a smile to your face.
+              From helping people navigate their wellness journey with compassion, to keeping loved ones connected through 
+              thoughtful moments, to unleashing pure chaos and laughter — we don't believe apps have to be just one thing. 
+              They can be serious and silly, heartfelt and hilarious, meaningful and messy.
             </motion.p>
 
             <motion.p
@@ -51,8 +52,8 @@ export default function About() {
               animate={isInView ? { opacity: 1 } : { opacity: 0 }}
               transition={{ delay: 0.7, duration: 0.8 }}
             >
-              We believe technology should be thoughtful, beautiful, and human. 
-              That's the Bandit Innovations way.
+              Every app we create is designed with intention and joy — because technology should be thoughtful, beautiful, human, 
+              and sometimes just plain fun. That's the Bandit Innovations way.
             </motion.p>
 
             {/* Decorative paw prints */}
