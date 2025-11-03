@@ -27,10 +27,10 @@ const apps: App[] = [
   },
   {
     name: 'Echotag',
-    tagline: 'Memories that echo',
-    description: 'Create beautiful, reflective memory journals. Capture moments, emotions, and stories that matter most to you.',
-    color: 'bg-gradient-to-br from-echotag-warm to-chestnut',
-    accentColor: 'border-echotag-warm',
+    tagline: 'Stay connected with the people who matter most',
+    description: 'Echotag is a simple, heartfelt way to stay connected through short echoes—little voice or text messages. Answer thoughtful, funny, or flirty prompts and tag someone to respond. Whether it\'s a daily check-in with your partner, a sweet question for your grandparent, or a random thought for a friend, Echotag helps you spark real conversations and share small moments that feel good to send and even better to get.',
+    color: 'bg-gradient-to-br from-echotag-terracotta to-echotag-slate-blue',
+    accentColor: 'border-echotag-terracotta',
     logo: '/logos/echotag-logo-biweb.png',
     link: '#'
   },

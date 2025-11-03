@@ -11,7 +11,17 @@
   /* App-specific colors */
   --pace-blue: #4A90A4;
   --pace-green: #6B9080;
-  --echotag-warm: #C06A4C;
+  
+  /* Echotag Colors */
+  --echotag-terracotta: #D4745E;
+  --echotag-slate-blue: #4A5F7F;
+  --echotag-sage: #A8B5A1;
+  --echotag-honey: #E8A838;
+  --echotag-off-white: #FAF7F2;
+  --echotag-stone: #D1CFC7;
+  --echotag-charcoal: #1F2937;
+  --echotag-muted-sage: #8FA88E;
+  
   --poofling-orange: #F59E0B;
   --poofling-yellow: #FCD34D;
   
@@ -30,7 +40,17 @@
   /* App Colors */
   --color-pace-blue: var(--pace-blue);
   --color-pace-green: var(--pace-green);
-  --color-echotag-warm: var(--echotag-warm);
+  
+  /* Echotag Colors */
+  --color-echotag-terracotta: var(--echotag-terracotta);
+  --color-echotag-slate-blue: var(--echotag-slate-blue);
+  --color-echotag-sage: var(--echotag-sage);
+  --color-echotag-honey: var(--echotag-honey);
+  --color-echotag-off-white: var(--echotag-off-white);
+  --color-echotag-stone: var(--echotag-stone);
+  --color-echotag-charcoal: var(--echotag-charcoal);
+  --color-echotag-muted-sage: var(--echotag-muted-sage);
+  
   --color-poofling-orange: var(--poofling-orange);
   --color-poofling-yellow: var(--poofling-yellow);
   
