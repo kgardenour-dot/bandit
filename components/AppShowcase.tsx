@@ -18,10 +18,10 @@ interface App {
 const apps: App[] = [
   {
     name: 'PACE',
-    tagline: 'Find your rhythm on the trail',
-    description: 'A wellness companion for trail runners and hikers. Track your pace, discover new routes, and connect with nature mindfully.',
-    color: 'bg-gradient-to-br from-pace-blue to-pace-green',
-    accentColor: 'border-pace-blue',
+    tagline: 'Your complete GLP-1 companion',
+    description: 'PACE is the complete GLP-1 companion app designed to help users build healthy habits and track progress their own way. It combines intelligent tracking for weight, nutrition, activity, and symptoms with reflection tools, progress "postcards," and gentle motivation that celebrates every step forward. PACE turns the wellness journey into something personal, rewarding, and surprisingly fun.',
+    color: 'bg-gradient-to-br from-pace-forest-green via-pace-soft-moss to-pace-sky-blue',
+    accentColor: 'border-pace-golden-trail',
     logo: '/logos/pace-logo-biweb.png',
     link: '#'
   },

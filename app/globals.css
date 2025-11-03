@@ -8,9 +8,23 @@
   --slate: #2F3438;
   --terracotta: #C06A4C;
   
-  /* App-specific colors */
-  --pace-blue: #4A90A4;
-  --pace-green: #6B9080;
+  /* PACE Colors - Primary */
+  --pace-forest-green: #485d48;
+  --pace-golden-trail: #dea84a;
+  --pace-deep-wood: #583718;
+  --pace-cream: #fdf6e8;
+  
+  /* PACE Colors - Secondary */
+  --pace-dark-pine: #293f27;
+  --pace-warm-bark: #7e5929;
+  --pace-sage: #888e78;
+  --pace-light-stone: #c2c7b4;
+  --pace-sky-blue: #6C8EBF;
+  --pace-soft-moss: #A3B18A;
+  --pace-river-teal: #3A6B68;
+  --pace-goldenrod: #E3B23C;
+  --pace-charcoal: #3C3C3B;
+  --pace-driftwood: #9C8F7A;
   
   /* Echotag Colors */
   --echotag-terracotta: #D4745E;
@@ -37,9 +51,23 @@
   --color-slate: var(--slate);
   --color-terracotta: var(--terracotta);
   
-  /* App Colors */
-  --color-pace-blue: var(--pace-blue);
-  --color-pace-green: var(--pace-green);
+  /* PACE Colors - Primary */
+  --color-pace-forest-green: var(--pace-forest-green);
+  --color-pace-golden-trail: var(--pace-golden-trail);
+  --color-pace-deep-wood: var(--pace-deep-wood);
+  --color-pace-cream: var(--pace-cream);
+  
+  /* PACE Colors - Secondary */
+  --color-pace-dark-pine: var(--pace-dark-pine);
+  --color-pace-warm-bark: var(--pace-warm-bark);
+  --color-pace-sage: var(--pace-sage);
+  --color-pace-light-stone: var(--pace-light-stone);
+  --color-pace-sky-blue: var(--pace-sky-blue);
+  --color-pace-soft-moss: var(--pace-soft-moss);
+  --color-pace-river-teal: var(--pace-river-teal);
+  --color-pace-goldenrod: var(--pace-goldenrod);
+  --color-pace-charcoal: var(--pace-charcoal);
+  --color-pace-driftwood: var(--pace-driftwood);
   
   /* Echotag Colors */
   --color-echotag-terracotta: var(--echotag-terracotta);
