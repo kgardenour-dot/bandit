@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Bandit Innovations Color Palette */
+  --chestnut: #7B5E47;
+  --taupe: #A38A74;
+  --off-white: #EFE9E4;
+  --slate: #2F3438;
+  --terracotta: #C06A4C;
+  
+  /* App-specific colors */
+  --pace-blue: #4A90A4;
+  --pace-green: #6B9080;
+  --echotag-warm: #C06A4C;
+  --poofling-orange: #F59E0B;
+  --poofling-yellow: #FCD34D;
+  
+  --background: var(--off-white);
+  --foreground: var(--slate);
 }
 
 @theme inline {
+  /* Bandit Innovations Colors */
+  --color-chestnut: var(--chestnut);
+  --color-taupe: var(--taupe);
+  --color-off-white: var(--off-white);
+  --color-slate: var(--slate);
+  --color-terracotta: var(--terracotta);
+  
+  /* App Colors */
+  --color-pace-blue: var(--pace-blue);
+  --color-pace-green: var(--pace-green);
+  --color-echotag-warm: var(--echotag-warm);
+  --color-poofling-orange: var(--poofling-orange);
+  --color-poofling-yellow: var(--poofling-yellow);
+  
+  /* Theme Colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
+  /* Typography */
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  
+  /* Radius */
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
