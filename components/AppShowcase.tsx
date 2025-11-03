@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import Image from 'next/image';
 
 interface App {
   name: string;
@@ -10,7 +11,7 @@ interface App {
   description: string;
   color: string;
   accentColor: string;
-  icon: string;
+  logo: string;
   link?: string;
 }
 
@@ -21,7 +22,7 @@ const apps: App[] = [
     description: 'A wellness companion for trail runners and hikers. Track your pace, discover new routes, and connect with nature mindfully.',
     color: 'bg-gradient-to-br from-pace-blue to-pace-green',
     accentColor: 'border-pace-blue',
-    icon: '🏃',
+    logo: '/logos/pace-logo-biweb.png',
     link: '#'
   },
   {
@@ -30,7 +31,7 @@ const apps: App[] = [
     description: 'Create beautiful, reflective memory journals. Capture moments, emotions, and stories that matter most to you.',
     color: 'bg-gradient-to-br from-echotag-warm to-chestnut',
     accentColor: 'border-echotag-warm',
-    icon: '💭',
+    logo: '/logos/echotag-logo-biweb.png',
     link: '#'
   },
   {
@@ -39,7 +40,7 @@ const apps: App[] = [
     description: 'A delightfully silly app that brings joy and laughter to your day. Because sometimes, you just need a smile.',
     color: 'bg-gradient-to-br from-poofling-yellow to-poofling-orange',
     accentColor: 'border-poofling-orange',
-    icon: '🎈',
+    logo: '/logos/poofling-logo-biweb.png',
     link: '#'
   }
 ];
@@ -57,13 +58,19 @@ function AppCard({ app, index }: { app: App; index: number }) {
       className="group"
     >
       <div className={`relative overflow-hidden rounded-3xl ${app.color} p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-4 ${app.accentColor} border-opacity-0 hover:border-opacity-100`}>
-        {/* Icon */}
+        {/* Logo */}
         <motion.div
-          className="text-6xl mb-6 inline-block"
-          whileHover={{ rotate: [0, -10, 10, -10, 0], scale: 1.1 }}
+          className="mb-6 inline-block"
+          whileHover={{ scale: 1.05, rotate: [0, -2, 2, -2, 0] }}
           transition={{ duration: 0.5 }}
         >
-          {app.icon}
+          <Image
+            src={app.logo}
+            alt={`${app.name} logo`}
+            width={200}
+            height={80}
+            className="h-16 md:h-20 w-auto drop-shadow-lg"
+          />
         </motion.div>
 
         {/* Content */}

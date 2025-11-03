@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -19,16 +20,20 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-          {/* Logo placeholder - we'll add a proper logo later */}
+          {/* Bandit Logo */}
           <motion.div
             className="mb-8 inline-block"
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
-            <div className="text-6xl md:text-8xl font-bold text-chestnut tracking-tight">
-              Bandit
-              <span className="block text-5xl md:text-7xl text-slate mt-2">Innovations</span>
-            </div>
+            <Image
+              src="/logos/bandit-logo-biweb.png"
+              alt="Bandit Innovations"
+              width={600}
+              height={200}
+              priority
+              className="w-full max-w-md md:max-w-2xl h-auto mx-auto"
+            />
           </motion.div>
 
           <motion.h2
