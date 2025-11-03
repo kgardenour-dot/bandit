@@ -13,6 +13,8 @@ interface App {
   accentColor: string;
   logo: string;
   link?: string;
+  buttonText: string;
+  isExternal?: boolean;
 }
 
 const apps: App[] = [
@@ -23,7 +25,9 @@ const apps: App[] = [
     color: 'bg-gradient-to-br from-pace-forest-green via-pace-soft-moss to-pace-sky-blue',
     accentColor: 'border-pace-golden-trail',
     logo: '/logos/pace-logo-biweb.png',
-    link: '#'
+    link: 'https://pacejourney.app',
+    buttonText: 'Learn More',
+    isExternal: true
   },
   {
     name: 'Echotag',
@@ -32,7 +36,8 @@ const apps: App[] = [
     color: 'bg-gradient-to-br from-echotag-terracotta to-echotag-slate-blue',
     accentColor: 'border-echotag-terracotta',
     logo: '/logos/echotag-logo-biweb.png',
-    link: '#'
+    link: '#',
+    buttonText: 'Coming Soon!'
   },
   {
     name: 'Poofling',
@@ -41,7 +46,8 @@ const apps: App[] = [
     color: 'bg-gradient-to-br from-poofling-yellow to-poofling-orange',
     accentColor: 'border-poofling-orange',
     logo: '/logos/poofling-logo-biweb.png',
-    link: '#'
+    link: '#',
+    buttonText: 'Coming Soon!'
   }
 ];
 
@@ -89,22 +95,25 @@ function AppCard({ app, index }: { app: App; index: number }) {
         {/* Button */}
         <motion.a
           href={app.link}
+          {...(app.isExternal && { target: '_blank', rel: 'noopener noreferrer' })}
           className="inline-flex items-center gap-2 px-6 py-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white rounded-full font-medium transition-all duration-300 border-2 border-white/30 hover:border-white/50"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Learn More
-          <svg
-            className="w-5 h-5 transform group-hover:translate-x-1 transition-transform"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-          </svg>
+          {app.buttonText}
+          {app.isExternal && (
+            <svg
+              className="w-5 h-5 transform group-hover:translate-x-1 transition-transform"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          )}
         </motion.a>
 
         {/* Decorative element */}
