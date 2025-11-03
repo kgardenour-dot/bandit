@@ -47,13 +47,22 @@ export default function About() {
             </motion.p>
 
             <motion.p
-              className="text-lg md:text-xl text-off-white/80 leading-relaxed"
+              className="text-lg md:text-xl text-off-white/80 leading-relaxed mb-8"
               initial={{ opacity: 0 }}
               animate={isInView ? { opacity: 1 } : { opacity: 0 }}
               transition={{ delay: 0.7, duration: 0.8 }}
             >
               Every app we create is designed with intention and joy — because technology should be thoughtful, beautiful, human, 
-              and sometimes just plain fun. That's the Bandit Innovations way.
+              and sometimes just plain fun.
+            </motion.p>
+
+            <motion.p
+              className="text-2xl md:text-3xl text-off-white font-medium text-center"
+              initial={{ opacity: 0 }}
+              animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+              transition={{ delay: 0.9, duration: 0.8 }}
+            >
+              Welcome to Bandit Innovations.
             </motion.p>
 
             {/* Decorative paw prints */}
