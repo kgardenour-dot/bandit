@@ -57,9 +57,9 @@ export default function About() {
 
             {/* Decorative paw prints */}
             <motion.div
-              className="mt-8 text-4xl opacity-20"
+              className="mt-8 text-4xl opacity-50"
               initial={{ opacity: 0, scale: 0 }}
-              animate={isInView ? { opacity: 0.2, scale: 1 } : { opacity: 0, scale: 0 }}
+              animate={isInView ? { opacity: 0.5, scale: 1 } : { opacity: 0, scale: 0 }}
               transition={{ delay: 0.9, duration: 0.5 }}
             >
               🐾
