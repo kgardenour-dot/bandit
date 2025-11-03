@@ -55,9 +55,9 @@ function AppCard({ app, index }: { app: App; index: number }) {
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.6, delay: index * 0.2 }}
-      className="group"
+      className="group h-full"
     >
-      <div className={`relative overflow-hidden rounded-3xl ${app.color} p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-4 ${app.accentColor} border-opacity-0 hover:border-opacity-100`}>
+      <div className={`relative overflow-hidden rounded-3xl ${app.color} p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-4 ${app.accentColor} border-opacity-0 hover:border-opacity-100 h-full flex flex-col`}>
         {/* Logo */}
         <motion.div
           className="mb-6 inline-block"
@@ -74,15 +74,17 @@ function AppCard({ app, index }: { app: App; index: number }) {
         </motion.div>
 
         {/* Content */}
-        <h3 className="text-4xl font-bold text-white mb-3 tracking-tight">
-          {app.name}
-        </h3>
-        <p className="text-xl text-white/90 font-medium mb-4 italic">
-          {app.tagline}
-        </p>
-        <p className="text-white/80 text-lg leading-relaxed mb-6">
-          {app.description}
-        </p>
+        <div className="flex-grow">
+          <h3 className="text-4xl font-bold text-white mb-3 tracking-tight">
+            {app.name}
+          </h3>
+          <p className="text-xl text-white/90 font-medium mb-4 italic">
+            {app.tagline}
+          </p>
+          <p className="text-white/80 text-lg leading-relaxed mb-6">
+            {app.description}
+          </p>
+        </div>
 
         {/* Button */}
         <motion.a
@@ -134,7 +136,7 @@ export default function AppShowcase() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-fr">
           {apps.map((app, index) => (
             <AppCard key={app.name} app={app} index={index} />
           ))}
