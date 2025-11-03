@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bandit Innovations Website
 
-## Getting Started
+A beautiful, modern website for Bandit Innovations LLC - showcasing creative apps built with heart, humor, and purpose.
 
-First, run the development server:
+## 🐾 About
+
+Bandit Innovations is an independent studio creating meaningful digital experiences. This website showcases our family of apps:
+
+- **PACE** - Find your rhythm on the trail (wellness & trail running)
+- **Echotag** - Memories that echo (reflective memory journals)
+- **Poofling** - When life needs a giggle (delightful fun)
+
+## 🎨 Color Palette
+
+The design is inspired by Bandit himself:
+
+- **Chestnut Brown** (#7B5E47) - Primary brand color
+- **Warm Taupe** (#A38A74) - Secondary highlights
+- **Off-White** (#EFE9E4) - Background & accents
+- **Slate Charcoal** (#2F3438) - Text & outlines
+- **Rust Terracotta** (#C06A4C) - Call-to-action accent
+
+## 🚀 Tech Stack
+
+- **Next.js 16** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS v4** - Utility-first styling with custom theme
+- **Framer Motion** - Smooth animations and interactions
+- **React 19** - Latest React features
+
+## 🛠️ Getting Started
+
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 🎯 Features
 
-To learn more about Next.js, take a look at the following resources:
+- ✨ Smooth scroll animations with Framer Motion
+- 📱 Fully responsive design (mobile to desktop)
+- 🎨 Custom color palette with app-specific themes
+- ♿ Accessible and semantic HTML
+- 🚀 Optimized performance with Next.js
+- 🎭 Playful hover effects and micro-interactions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Hero** - Bold introduction with animated tagline
+2. **App Showcase** - Three featured apps with unique styling
+3. **About** - Company mission and values
+4. **Future Projects** - Teaser for upcoming ideas
+5. **Contact** - Email and social links
+6. **Footer** - Branding and navigation
 
-## Deploy on Vercel
+## 🔗 Links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **GitHub**: [https://github.com/kgardenour-dot/bandit.git](https://github.com/kgardenour-dot/bandit.git)
+- **Website**: Coming soon!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👩‍💻 Created By
+
+Kristy Gardenour  
+Bandit Innovations LLC
+
+---
+
+Built with ❤️ and purpose. *"Every great innovation begins with curiosity and a wagging tail."*
