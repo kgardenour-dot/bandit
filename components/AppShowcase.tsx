@@ -19,15 +19,14 @@ interface App {
 
 const apps: App[] = [
   {
-    name: 'PACE',
-    tagline: 'Your complete GLP-1 companion',
-    description: 'PACE is the complete GLP-1 companion app designed to help users build healthy habits and track progress their own way. It combines intelligent tracking for weight, nutrition, activity, and symptoms with reflection tools, progress "postcards," and gentle motivation that celebrates every step forward. PACE turns the wellness journey into something personal, rewarding, and surprisingly fun.',
-    color: 'bg-gradient-to-br from-pace-forest-green via-pace-soft-moss to-pace-sky-blue',
-    accentColor: 'border-pace-golden-trail',
-    logo: '/logos/pace-logo-biweb.png',
-    link: 'https://pacejourney.app',
-    buttonText: 'Learn More',
-    isExternal: true
+    name: 'FitLinks',
+    tagline: 'Your workout library, organized',
+    description: 'FitLinks makes it easy to save and organize all your favorite workout videos, exercise tutorials, and fitness resources from across the web. No more losing track of that perfect yoga flow or strength training routine. Create custom collections, tag your links, and access your complete fitness library whenever you need it. Whether you\'re building a home gym routine or exploring new exercises, FitLinks keeps everything you need in one organized place.',
+    color: 'bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500',
+    accentColor: 'border-blue-500',
+    logo: '/logos/fitlinks-logo-biweb.png',
+    link: '#',
+    buttonText: 'Coming Soon!'
   },
   {
     name: 'Echotag',
@@ -38,6 +37,17 @@ const apps: App[] = [
     logo: '/logos/echotag-logo-biweb.png',
     link: '#',
     buttonText: 'Coming Soon!'
+  },
+  {
+    name: 'PACE',
+    tagline: 'Your complete GLP-1 companion',
+    description: 'PACE is the complete GLP-1 companion app designed to help users build healthy habits and track progress their own way. It combines intelligent tracking for weight, nutrition, activity, and symptoms with reflection tools, progress "postcards," and gentle motivation that celebrates every step forward. PACE turns the wellness journey into something personal, rewarding, and surprisingly fun.',
+    color: 'bg-gradient-to-br from-pace-forest-green via-pace-soft-moss to-pace-sky-blue',
+    accentColor: 'border-pace-golden-trail',
+    logo: '/logos/pace-logo-biweb.png',
+    link: 'https://pacejourney.app',
+    buttonText: 'Learn More',
+    isExternal: true
   },
   {
     name: 'Poofling',
