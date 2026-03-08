@@ -35,8 +35,9 @@ const apps: App[] = [
     color: 'bg-gradient-to-br from-echotag-terracotta to-echotag-slate-blue',
     accentColor: 'border-echotag-terracotta',
     logo: '/logos/echotag-logo-biweb.png',
-    link: '#',
-    buttonText: 'Coming Soon!'
+    link: 'https://echotag.app',
+    buttonText: 'Learn More',
+    isExternal: true
   },
   {
     name: 'PACE',
