@@ -51,12 +51,12 @@ const apps: App[] = [
     isExternal: true
   },
   {
-    name: 'Poofling',
-    tagline: 'Splatter, sploosh, and save Dungtopia!',
-    description: 'Poofling is a laugh-out-loud physics adventure where every fling counts! Build and upgrade your rickety Plopapult to launch poo-powered projectiles at the tidy tyrants of the Sanitation Syndicate, smashing their spotless structures in glorious, messy fashion. Explore silly themed worlds, unlock new ammo types, and master your aim as chaos reigns supreme. Join Splatticus the dung beetle and the Resistance of Reek to splatter, sploosh, and save the messy world of Dungtopia!',
-    color: 'bg-gradient-to-br from-poofling-yellow to-poofling-orange',
-    accentColor: 'border-poofling-orange',
-    logo: '/logos/poofling-logo-biweb.png',
+    name: 'Dayshaker',
+    tagline: 'A small, fun daily shake-up',
+    description: 'Dayshaker is a mobile-only lifestyle app concept that delivers one curated micro-spark each day: a pleasant detour, a tiny nudge, or a moment of novelty and delight. It is light, optional, adult-friendly, and designed to be genuinely doable, mood-boosting, and slightly unexpected. Not a productivity challenge, just a warm, playful way to shake up your day without pressure.',
+    color: 'bg-gradient-to-br from-[#2b0f3f] via-[#3a1450] to-[#ff685f]',
+    accentColor: 'border-[#f2c44d]',
+    logo: '/dayshaker_logo.png',
     link: '#',
     buttonText: 'Coming Soon!'
   }

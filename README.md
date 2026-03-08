@@ -8,7 +8,7 @@ Bandit Innovations is an independent studio creating meaningful digital experien
 
 - **PACE** - Find your rhythm on the trail (wellness & trail running)
 - **Echotag** - Memories that echo (reflective memory journals)
-- **Poofling** - When life needs a giggle (delightful fun)
+- **Dayshaker** - A small, fun daily shake-up (mobile lifestyle)
 
 ## 🎨 Color Palette
 

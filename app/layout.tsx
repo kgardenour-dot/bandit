@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Bandit Innovations | Where Ideas Come to Play",
-  description: "Inventing apps with heart, humor, and purpose. Discover PACE, Echotag, and Poofling - creative apps built by Bandit Innovations.",
-  keywords: ["Bandit Innovations", "PACE", "Echotag", "Poofling", "app development", "creative apps"],
+  description: "Inventing apps with heart, humor, and purpose. Discover PACE, Echotag, and Dayshaker - creative apps built by Bandit Innovations.",
+  keywords: ["Bandit Innovations", "PACE", "Echotag", "Dayshaker", "app development", "creative apps"],
   authors: [{ name: "Kristy Gardenour" }],
   creator: "Kristy Gardenour",
   openGraph: {
