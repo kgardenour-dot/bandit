@@ -25,8 +25,9 @@ const apps: App[] = [
     color: 'bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500',
     accentColor: 'border-blue-500',
     logo: '/logos/fitlinks-logo-biweb.png',
-    link: '#',
-    buttonText: 'Coming Soon!'
+    link: 'https://fitlinks.app',
+    buttonText: 'Learn More',
+    isExternal: true
   },
   {
     name: 'Echotag',
